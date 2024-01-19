@@ -1,3 +1,0 @@
-rabbitmq:
-  host: amqp://guest:guest@localhost:5672/
-  vhost: cu-wander
