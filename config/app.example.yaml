@@ -1,0 +1,4 @@
+app:
+  port: 3000
+  debug: true
+  max_file_size: 50
