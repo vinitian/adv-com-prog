@@ -2,7 +2,7 @@
 
 ## Info
 * Y1T2
-* Instructors : Ajarn Sindhu, Ajarn Sukree
+* Instructors : Ajarn Sindhu, Ajarn Sukree, Ajarn Pitchaya
 * Languages : Java, JavaScript
 
 > [!WARNING]
