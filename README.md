@@ -9,4 +9,4 @@
 * [Aj. Sukree's website](https://sites.google.com/view/ssukree/courses/2190103-advanced-computer-programming-22023?authuser=0)
 
 > [!NOTE]
-> *\first degree murder intensifies\*
+> *first degree murder intensifies\*
