@@ -2,8 +2,6 @@
 
 [Colab link](https://colab.research.google.com/drive/19egTeGBtDtMiuoQV0y9bsfwxaGUM0xGE?usp=sharing)
 
-<span style="background-color: #FFFF00">Marked text</span>
-
 ## OCP (Open and Closed Principle)
 - = Open for inheritance, closed for modification
 
