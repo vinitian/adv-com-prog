@@ -10,3 +10,12 @@
 
 > [!NOTE]
 > *first degree murder intensifies\*
+
+## Lessons
+- 02: subclass, encapsulation
+- 03: polymorphism, array, abstract class
+- 04: interface, exception, try-catch block
+- 05: ไปไหนไม่รู้...
+- 06: OCP, design patterns, static strategy, dynamic strategy
+- 07: observer pattern, decorator pattern
+- 08: midterm review
