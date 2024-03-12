@@ -19,3 +19,4 @@
 - 06: OCP, design patterns, static strategy, dynamic strategy
 - 07: observer pattern, decorator pattern
 - 08: midterm review
+- 09: design patterns Factory & Singleton, file operations (reading/writing files)
