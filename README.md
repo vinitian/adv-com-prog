@@ -21,4 +21,4 @@
 - 07: observer pattern, decorator pattern
 - 08: midterm review
 - 09: design patterns Factory & Singleton, file operations (reading/writing files)
-
+- 10: javascript -- basics, HTML, CSS, console.log(), label, button, input, handleClick || java -- Comparable, general class, Colletions, Map, HashMap, Entry, Set, HashSet
