@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>💛</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Kusunoki Muu (楠夢羽)</h1>
+        <label for="messageInput">Enter a message for Muu:</label>
+        <input type="Text" id="messageInput">
+        <button onclick="handleClick(document.getElementById('messageInput').value)">Send love</button>
+        </br>
+        <img alt="after pain album cover" src="https://cdn.milgram.jp/media/news/posts/cd20201028.jpg" width="40%">
+        <p>アフターペイン</p>
+        </br>
+        <img alt="it's not my fault album cover" src="https://milgram.s3.amazonaws.com/uploads/public/636/a2b/b0d/636a2bb0d843b774772803.jpg" width="40%">
+        <p>悪くないもん</p>
+        <script>
+            console.log("i see you're inspecting element");
+            console.log("i don't mind but just remember one thing:");
+            console.log("nong muu narak suud suud"); //try ctrl+shift+i > console
+            function handleClick(message) {
+                console.log('Message "' + message + '" has been sent. i hope you sent her only good things');
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,14 @@
+- Collections?
+- generic class? is T a generic class? so that means T can be any type of class (Doll, String, int, etc)??
+- how does generic class work? why does the editor doesn't see T as "missing class" error???
+- Comparable ,,, why don't we need to write import Comparable?
+- differences in ideas between ArrayUtils and MyArrayList??
+- you see that the ide runs main() of the class that is the name of the file. what if we also write main() inside another class that is not the name of the file? will it automatically run also?
+    - ไม่ควรเขียน main() เพิ่ม
+    - compiler จะตามหา main() ในคลาสที่ชื่อเดียวกับไฟล์ก่น
+- Map???
+    - HashMap is the way to find & เก็บข้อมูล ー- Map is interface, implemented by HashMap and TreeMap
+    - HashMap & TreeMap 
+- HashMap???????
+- entrySet() ??????????????? Map.Entry<>?????????????????????
+- Set
