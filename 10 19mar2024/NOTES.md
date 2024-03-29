@@ -13,6 +13,7 @@
 - `<input></input>`
 - `<button onClick="handleClick()"button>`
 - `<script>the actual javascript</script>`
+- `console.log("hello world");`
 
 
 - the css for button is https://getcssscan.com/css-buttons-examples  button 4
