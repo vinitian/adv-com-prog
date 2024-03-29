@@ -1,12 +1,10 @@
 # JavaScript & HTML
 
-## HTML
 - `<!DOCTYPE html></html>` or `<html></html>` : used to tell the servers(?) that the code is HTML
 - `<head></head>` is for metadata
   - e.g. `<title></title>`
 
-# JavaScript
-- don't need to declare the **type** of variables
+- javascript: don't need to declare the **type** of variables (have to declare -> TypeScript)
 - try ctrl+shift+i > inspector and hover on the codes. you'll see the code as a highlighted area on the webpage
 
 - `<label></label>`
