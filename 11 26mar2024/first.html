@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>JavaScript Concept 1.5</title>
+    </head>
+    <body>
+        <input type="text" id="nameInput" placeholder="Please enter your name">
+        <button id="greeting-button" onclick="handleClick(document.getElementById('nameInput').value)">Hello</button>
+        <script>
+            function handleClick(nameString) {
+                console.log('Hi '+nameString);
+                alert('Hi '+nameString);
+            }
+        </script>
+    </body>
+</html>

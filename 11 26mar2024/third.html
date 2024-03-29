@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>JavaScript Concept 1.5</title>
+    </head>
+    <body>
+        <input type="text" id="nameInput" placeholder="Please enter your name">
+        <button id="greeting-button" onclick="handleClick(document.getElementById('nameInput').value)">Hello</button>
+        <button id="addname-button">Add</button>
+        <p id="output-paragraph">This is a text</p>
+        <ul id="fruit-list"></ul>
+        <ul id="namelist">
+        </ul>
+        <script>
+            function handleClick(nameString) {
+                console.log('Hi '+nameString);
+                // alert('Hi '+nameString);
+                const paragraph = document.getElementById('output-paragraph');
+                paragraph.textContent = 'Hi '+nameString;
+                setTimeout(function() {
+                    paragraph.textContent = 'This is a text';
+                }, 3000);
+            }
+            function addName(nameString) {
+                const outputList = document.getElementById('namelist');
+                const li = document.createElement('li');
+                const btn = document.createElement('button');
+                const btn2 = document.createElement('button');
+                li.appendChild(document.createTextNode(nameString+' '));
+                btn.textContent="Remove";
+                btn.addEventListener('click', () => li.remove());
+                btn2.textContent='Try me';
+                btn2.addEventListener('click', () => alert('You entered '+window.prompt("Please enter a value")));
+                li.appendChild(btn);
+                li.appendChild(btn2);
+                outputList.appendChild(li);
+            }
+            const addnameButton = document.getElementById('addname-button')
+            addnameButton.addEventListener("click", ()=>addName(document.getElementById('nameInput').value));
+
+            function doubleIt(x) {
+                return 2*x;
+            }
+            const myfunc = (x) => 2*x;
+            var fruits = ['Apple','Banana','Orange','Grape'];
+            fruits.forEach(function(fruit) {
+                const li = document.createElement("li");
+                const ul = document.getElementById("fruit-list");
+                li.appendChild(document.createTextNode(fruit));
+                ul.appendChild(li);
+            });
+        </script>
+    </body>
+</html>

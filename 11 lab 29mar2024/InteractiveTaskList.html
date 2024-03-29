@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive To-Do List</title>
+    <style>
+        /* Provided CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Provided HTML structure -->
+    <h1>Interactive To-Do List</h1>
+
+    <form>
+        <label for="taskInput">New Task:</label>
+        <input type="text" id="taskInput" placeholder="Enter task" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+    </form>
+
+    <ul id="taskList">
+        <!-- Tasks will be added dynamically here -->
+    </ul>
+
+    <script>
+      function addTask() {
+        // Get the input value
+        const inputValue = document.getElementById("taskInput").value;
+
+        // Create a new paragraph element
+        const task = document.createElement("li");
+        task.textContent = inputValue;
+
+        // Append paragraph and buttons to the container
+        if (task.textContent.trim() !== '') {
+        const taskContainer = document.getElementById("taskList");
+        taskContainer.appendChild(task);
+        }
+
+        // Click on the task to edit
+        task.addEventListener("click", () => editTask());
+        function editTask () {
+            const updatedText = prompt("Enter the updated text:", task.textContent);
+            if (updatedText.trim() !== '') {
+                task.textContent = updatedText;
+            }
+            // Delete
+            else {
+                task.remove();
+            }
+        };
+    }
+
+    </script>
+</body>
+</html>
