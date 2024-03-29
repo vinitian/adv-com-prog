@@ -12,6 +12,7 @@
 - `<button onClick="handleClick()"button>`
 - `<script>the actual javascript</script>`
 - `console.log("hello world");`
+- `document.getElementById()`, `document.getElementById().value`
 
 
 - the css for button is https://getcssscan.com/css-buttons-examples  button 4
