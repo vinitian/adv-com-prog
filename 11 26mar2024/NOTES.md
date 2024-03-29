@@ -30,7 +30,7 @@ setTimeout(function() {
     paragraph.textContent = 'This is a text';
 }, 3000);
 ```
-    - means wait for 3000 ms then do the function
+- means wait for 3000 ms then do the function
 
 ## Arrow function
 !(https://www.w3schools.com/js/js_arrow_function.asp)[W3Schools: Arrow function]
