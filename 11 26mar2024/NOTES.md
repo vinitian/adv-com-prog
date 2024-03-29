@@ -33,7 +33,7 @@ setTimeout(function() {
 - means wait for 3000 ms then do the function
 
 ## Arrow function
-!(https://www.w3schools.com/js/js_arrow_function.asp)[W3Schools: Arrow function]
+![https://www.w3schools.com/js/js_arrow_function.asp](W3Schools: Arrow function)
 
 - compare these two:
 ```javascript
