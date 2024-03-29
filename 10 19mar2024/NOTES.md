@@ -8,7 +8,7 @@
 - try ctrl+shift+i > inspector and hover on the codes. you'll see the code as a highlighted area on the webpage
 
 - `<label></label>`
-- `<input></input>`
+- `<input type="text" id="nameInput" placeholder="Please enter your name">`
 - `<button onClick="handleClick()"button>`
 - `<script>the actual javascript</script>`
 - `console.log("hello world");`
