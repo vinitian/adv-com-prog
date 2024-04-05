@@ -21,4 +21,26 @@
 - 07: observer pattern, decorator pattern
 - 08: midterm review
 - 09: design patterns Factory & Singleton, file operations (reading/writing files)
-- 10: javascript -- basics, HTML, CSS, console.log(), label, button, input, handleClick || java -- Comparable, general class, Colletions, Map, HashMap, Entry, Set, HashSet
+- 10:
+    - javascript -- basics, HTML, CSS, console.log(), label, button, input, handleClick
+    - java -- Comparable, general class, Colletions, Map, HashMap, Entry, Set, HashSet
+- 11:
+    - `<ul></ul>`, `<ol></ol>`
+    - addEventListener
+    - .textContent, .value
+    - alert("Hello World")
+    - .trim()
+    - document.createElement('li')
+    - .appendChild()
+    - .addEventListener('click', (parameters) => doFunction())
+    - setTimeout(function(), 3000)
+    - Arrow function
+- 12:
+    - Fetch API
+        - fetch()
+        - .then(), .catch()
+        - async-await, response.json()    
+    - ChartJS
+    - .forEach(), .map()
+    - `Date` object type, .toDateString(), .toTimeString()
+    - .slice(), 
