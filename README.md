@@ -26,7 +26,7 @@
     - java -- Comparable, general class, Colletions, Map, HashMap, Entry, Set, HashSet
 - 11:
     - `<ul></ul>`, `<ol></ol>`
-    - addEventListener
+    - Arrow function
     - .textContent, .value
     - alert("Hello World")
     - .trim()
@@ -34,7 +34,7 @@
     - .appendChild()
     - .addEventListener('click', (parameters) => doFunction())
     - setTimeout(function(), 3000)
-    - Arrow function
+    
 - 12:
     - Fetch API
         - fetch()
@@ -43,4 +43,4 @@
     - ChartJS
     - .forEach(), .map()
     - `Date` object type, .toDateString(), .toTimeString()
-    - .slice(), 
+    - .slice()
