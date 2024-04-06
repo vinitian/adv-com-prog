@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Concepts (2)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <pre id="jsonOutput"></pre>
+
+    <script type="text/javascript">
+        function convertToDate(str, offset){
+            const year = parseInt(str.slice(0,4)); //like str[0:4] in python...? not sure
+            const month = parseInt(str.slice(4,6));
+            const day = parseInt(str.slice(6,8));
+            const hour = parseInt(str.slice(8)) + 7 + offset; //+ 7 because we're GMT+7
+            const initDate = new Date(year,month,day,hour);
+            return initDate.toDateString() + " " + initDate.toTimeString();
+            //^ in Date's library
+        }
+
+        function getWeather() {
+            fetch("http://www.7timer.info/bin/api.pl?lon=100.53&lat=13.736&product=civil&output=json")
+                .then(response => response.json())
+                //^ fetch data into variable "response" then assign response.json() to it
+                .then(data => {
+                    document.getElementById('jsonOutput').textContent = JSON.stringify(data, null, 4);
+                    //^ then put that response.json into data, and data into the code...?
+                    //the number 4 means indent will be 4 spaces
+                    var output = '';
+                    output += data.product + '\n' + data.init + '\n';
+                    //+ '\n' + data.dataseries;
+                    //^ this is a list of dict... displays object Object object Object etc.
+                    // try this: + '\n' + data.dataseries[0].lifted_index;
+                    //data.dataseries.forEach(timePoint => output += timePoint.temp2m + "\n");
+                    data.dataseries.forEach(dict => output += convertToDate(data.init,dict.timepoint)+": "+dict.temp2m +'\n');
+                    //^ get timePoint data with the temperature
+                    document.getElementById('jsonOutput').textContent = output;
+                })
+                
+                .catch(error => {
+                    console.error("Error fetching data:"+error);
+                })
+        }
+
+        getWeather();
+    </script>
+
+</body>
+</html>
