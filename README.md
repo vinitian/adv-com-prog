@@ -44,3 +44,4 @@
     - .forEach(), .map()
     - `Date` object type, .toDateString(), .toTimeString()
     - .slice()
+- 13: MongoDB, backend using mongoDB & colab, [colab link](https://colab.research.google.com/drive/1txiY1uw5J1wxyYc80gLOr4efhrEk0yck?usp=sharing)
