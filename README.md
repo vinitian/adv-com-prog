@@ -7,6 +7,7 @@
 
 ## Links
 * [Aj. Sukree's website](https://sites.google.com/view/ssukree/courses/2190103-advanced-computer-programming-22023?authuser=0)
+* [group project repo](https://github.com/vinitian/adv-com-prog-proj)
 
 > [!NOTE]
 > *first degree murder intensifies\*
